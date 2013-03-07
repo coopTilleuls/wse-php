@@ -4,11 +4,16 @@
     "description": "Libraries for adding WS-* support to ext/soap in PHP",
     "keywords": ["soap", "ws"],
     "homepage": "http://les-tilleuls.coop",
+    "license": "MIT",
     "authors": [
-    {
-        "name": "Kévin Dunglas",
-        "email": "dunglas@gmail.com"
-    }
+        {
+            "name": "Robert Richards",
+            "email": "rrichards@ctindustries.net"
+        },
+        {
+            "name": "Kévin Dunglas",
+            "email": "dunglas@gmail.com"
+        }
     ],
     "autoload": {
         "psr-0": {

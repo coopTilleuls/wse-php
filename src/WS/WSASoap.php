@@ -86,7 +86,6 @@ class WSASoap {
         $header = $this->locateHeader();
 
         $nodeAction = $this->soapDoc->createElementNS(self::WSANS, self::WSAPFX . ':Action', $action);
-        $nodeAction->
         $header->appendChild($nodeAction);
     }
 

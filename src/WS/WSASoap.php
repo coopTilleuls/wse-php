@@ -45,7 +45,7 @@ namespace WS;
 
 class WSASoap {
 
-    const WSANS = 'http://schemas.xmlsoap.org/ws/2005/08/addressing';
+    const WSANS = 'http://www.w3.org/2005/08/addressing';
     const WSAPFX = 'wsa';
 
     private $soapNS, $soapPFX;

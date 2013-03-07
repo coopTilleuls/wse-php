@@ -1,0 +1,21 @@
+{
+    "name": "tilleuls/wse-php",
+    "type": "library",
+    "description": "Libraries for adding WS-* support to ext/soap in PHP",
+    "keywords": ["soap", "ws"],
+    "homepage": "http://les-tilleuls.coop",
+    "authors": [
+    {
+        "name": "Kévin Dunglas",
+        "email": "dunglas@gmail.com"
+    }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
